@@ -1,0 +1,53 @@
+# ☕ Cafetería Los Molinos
+
+Aplicación móvil desarrollada en React Native y Expo para la administración de productos de una cafetería.  
+La app permite crear, editar, eliminar y buscar productos de manera sencilla y moderna.
+
+---
+
+# 📱 Descripción del proyecto
+
+Cafetería Los Molinos es una aplicación CRUD enfocada en la gestión de productos de cafetería.  
+El usuario puede administrar el menú desde el celular mediante una interfaz intuitiva y profesional.
+
+La aplicación almacena la información localmente utilizando AsyncStorage, permitiendo conservar los datos incluso después de cerrar la app.
+
+---
+
+# 🚀 Funcionalidades
+
+- ✅ Visualizar productos
+- ✅ Crear productos
+- ✅ Editar productos
+- ✅ Eliminar productos
+- ✅ Buscar productos en tiempo real
+- ✅ Actualización mediante refresh
+- ✅ Persistencia de datos con AsyncStorage
+- ✅ Diseño moderno y responsive
+- ✅ Logo personalizado de la cafetería
+- ✅ Navegación entre pantallas
+
+---
+
+# 🛠️ Tecnologías utilizadas
+
+- React Native
+- Expo
+- JavaScript
+- AsyncStorage
+- React Hooks (`useState`, `useEffect`)
+- Expo Vector Icons
+
+---
+
+# 🧠 Arquitectura del proyecto
+
+La aplicación está organizada por pantallas para separar responsabilidades:
+
+```bash
+src/
+ ├── screens/
+ │    ├── HomeScreen.js
+ │    ├── ProductsScreen.js
+ │    ├── CreateProductScreen.js
+ │    └── EditProductScreen.js
